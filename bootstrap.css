@@ -35,7 +35,7 @@ color: #000000
 h2{
 font-size: 120%; 
 margin: 0;
-color: #FF0000
+color: #000080
 }
 
 table{
@@ -45,17 +45,17 @@ font-family: roman;
 
 a:link,
 a:active{
-color: #0000FF;
+color: #3F00FF;
 text-decoration: none;
 font-size: 100%; 
 }
 a:hover{
-color: #C00000;
+color: #3F00FF;
 text-decoration: underline;
 font-size: 100%; 
 }
 a:visited{
-color: #C00000;
+color: #3F00FF;
 text-decoration: none;
 font-size: 100%; 
 }
