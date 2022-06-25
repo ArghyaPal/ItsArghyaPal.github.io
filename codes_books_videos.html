@@ -40,7 +40,7 @@ var x = setInterval(function() {
 
 2. <a href="https://iccv2023.thecvf.com">ICCV</a>, March 8, 2023 (23:59 GMT)
 <!-- Display the countdown timer in an element -->
-<p id="demo"></p>
+<p id="demo_1"></p>
 
 <script>
 // Set the date we're counting down to
@@ -62,20 +62,20 @@ var x = setInterval(function() {
   var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
   // Display the result in the element with id="demo"
-  document.getElementById("demo").innerHTML = days + "d " + hours + "h "
+  document.getElementById("demo_1").innerHTML = days + "d " + hours + "h "
   + minutes + "m " + seconds + "s ";
 
   // If the count down is finished, write some text 
   if (distance < 0) {
     clearInterval(x);
-    document.getElementById("demo").innerHTML = "EXPIRED";
+    document.getElementById("demo_1").innerHTML = "EXPIRED";
   }
 }, 1000);
 </script>
 <br>
 3. <a href="https://wacv2023.thecvf.com/node/129">WACV</a>, July 13th (11:59 AM Pacific Time), Paper Registration July 6th, 11:59 PM PT
 <!-- Display the countdown timer in an element -->
-<p id="demo"></p>
+<p id="demo_2"></p>
 
 <script>
 // Set the date we're counting down to
@@ -97,13 +97,13 @@ var x = setInterval(function() {
   var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
   // Display the result in the element with id="demo"
-  document.getElementById("demo").innerHTML = days + "d " + hours + "h "
+  document.getElementById("demo_2").innerHTML = days + "d " + hours + "h "
   + minutes + "m " + seconds + "s ";
 
   // If the count down is finished, write some text 
   if (distance < 0) {
     clearInterval(x);
-    document.getElementById("demo").innerHTML = "EXPIRED";
+    document.getElementById("demo_2").innerHTML = "EXPIRED";
   }
 }, 1000);
 </script>
@@ -111,7 +111,7 @@ var x = setInterval(function() {
 <!---------------------------------------------->
 <a href="https://wacv2023.thecvf.com/node/129">WACV 2nd round</a>, August 29th (11:59 AM Pacific Time), Paper Registration August 22nd, 11:59 PM PT
 <!-- Display the countdown timer in an element -->
-<p id="demo"></p>
+<p id="demo_3"></p>
 
 <script>
 // Set the date we're counting down to
@@ -133,13 +133,13 @@ var x = setInterval(function() {
   var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
   // Display the result in the element with id="demo"
-  document.getElementById("demo").innerHTML = days + "d " + hours + "h "
+  document.getElementById("demo_3").innerHTML = days + "d " + hours + "h "
   + minutes + "m " + seconds + "s ";
 
   // If the count down is finished, write some text 
   if (distance < 0) {
     clearInterval(x);
-    document.getElementById("demo").innerHTML = "EXPIRED";
+    document.getElementById("demo_3").innerHTML = "EXPIRED";
   }
 }, 1000);
 </script>
